@@ -10,11 +10,11 @@ Answer: AWS Lambda is a serverless computing service provided by Amazon Web Serv
 
 Answer: The benefits of AWS Lambda include:
 
-Serverless architecture, which eliminates the need for server management.
-Automatic scaling.
-Cost-effectiveness, as you only pay for the compute time used.
-Event-driven execution.
-Easy integration with other AWS services.
+- Serverless architecture, which eliminates the need for server management.
+- Automatic scaling.
+- Cost-effectiveness, as you only pay for the compute time used.
+- Event-driven execution.
+- Easy integration with other AWS services.
 
 3. How do you trigger a Lambda function?
 

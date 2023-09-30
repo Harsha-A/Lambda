@@ -20,12 +20,12 @@ Answer: The benefits of AWS Lambda include:
 
 Answer: Lambda functions can be triggered by various AWS services, including:
 
-API Gateway HTTP requests.
-S3 bucket events (e.g., object creation or deletion).
-AWS IoT events.
-AWS CloudWatch Events.
-Amazon SNS messages.
-Custom events from your code.
+- API Gateway HTTP requests.
+- S3 bucket events (e.g., object creation or deletion).
+- AWS IoT events.
+- AWS CloudWatch Events.
+- Amazon SNS messages.
+- Custom events from your code.
 
 4. What is the maximum execution time for a Lambda function?
 

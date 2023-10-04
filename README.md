@@ -180,3 +180,7 @@ It seems like you're asking about integrating AWS Lambda functions with function
 When a client makes an HTTP GET request to `https://api.example.com/products`, API Gateway invokes the associated Lambda function to retrieve and return the product data.
 
 In summary, AWS Lambda functions can be triggered by HTTP requests through Amazon API Gateway, which provides functional URLs (endpoints) that map to specific Lambda functions, allowing you to build RESTful APIs and expose various functionalities of your application over the internet.
+
+29. What is lamda throttling?
+
+Answer: AWS Lambda throttling is a mechanism used to control the rate at which requests are allowed to invoke your Lambda functions. It ensures that your functions don't receive more requests than they can handle, preventing overuse of resources and maintaining system stability. Throttling limits are defined for each function, including the maximum concurrent executions allowed, which is the most common form of throttling. When a function exceeds its defined concurrency limit, additional requests are rejected or queued, and AWS throttles their execution until resources become available, ensuring fair and efficient use of resources for all functions. It's essential to monitor and configure throttling settings to ensure your serverless applications can handle varying workloads and stay responsive.

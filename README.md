@@ -4,7 +4,7 @@ AWS Lambda Interview Questions
 
 1. What is AWS Lambda?
 
-Answer: AWS Lambda is a serverless computing service provided by Amazon Web Services. It allows you to run code without provisioning or managing servers. You can execute functions in response to events, such as changes in data in an S3 bucket or HTTP requests to an API Gateway.
+Answer: AWS Lambda is a serverless computing service provided by Amazon Web Services. It allows you to run code without provisioning or managing servers. It will run your code as functions which are triggerred by events, such as changes in data in an S3 bucket or HTTP requests to an API Gateway.
 
 2. What are the benefits of AWS Lambda?
 

@@ -59,11 +59,6 @@ Answer: The cold start problem refers to the initial delay when a Lambda functio
 
 Answer: You can define environment variables for Lambda functions using the AWS Management Console, AWS CLI, or CloudFormation templates. These variables can be accessed in your function code.
 
-What is the maximum package size for a Lambda deployment package?
-
-Answer: The maximum deployment package size for a Lambda function, when uploaded directly or from an S3 bucket, is 50 MB for AWS Lambda@Edge and 250 MB for standard AWS Lambda functions
-
-
 12. What is AWS Lambda Provisioned Concurrency, and when is it useful?
 
 Answer: Provisioned Concurrency is a feature that allows you to pre-warm a specific number of function instances to handle anticipated traffic. It's useful when you want to reduce the impact of cold starts or ensure consistent performance for mission-critical functions.
@@ -184,3 +179,8 @@ In summary, AWS Lambda functions can be triggered by HTTP requests through Amazo
 29. What is lamda throttling?
 
 Answer: AWS Lambda throttling is a mechanism used to control the rate at which requests are allowed to invoke your Lambda functions. It ensures that your functions don't receive more requests than they can handle, preventing overuse of resources and maintaining system stability. Throttling limits are defined for each function, including the maximum concurrent executions allowed, which is the most common form of throttling. When a function exceeds its defined concurrency limit, additional requests are rejected or queued, and AWS throttles their execution until resources become available, ensuring fair and efficient use of resources for all functions. It's essential to monitor and configure throttling settings to ensure your serverless applications can handle varying workloads and stay responsive.
+
+30. What is the maximum package size for a Lambda deployment package?
+
+Answer: The maximum deployment package size for a Lambda function, when uploaded directly or from an S3 bucket, is 50 MB for AWS Lambda@Edge and 250 MB for standard AWS Lambda functions
+

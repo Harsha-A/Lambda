@@ -113,7 +113,7 @@ Answer:
 
 24. What is the max memory a lambda function can have?
 
-25. How would u know if lamda is unprovisioned or over provisioned memory ?
+25. How would u know if lamda is under provisioned or over provisioned memory ?
 
 Answer: Determining whether an AWS Lambda function is under-provisioned or over-provisioned in terms of memory allocation involves monitoring and analyzing the function's performance, duration, and resource utilization. Here are some key indicators to help you assess the memory allocation:
 

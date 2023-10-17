@@ -113,7 +113,7 @@ Answer:
 
 24. What is the max memory a lambda function can have?
 
-Answer:  Between 128 MB and 10,240 MB.
+Answer:  Between 128 MB and 10,240 MB (10 GB).
 
 25. How would u know if lamda is under provisioned or over provisioned memory ?
 

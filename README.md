@@ -186,6 +186,19 @@ Answer: AWS Lambda throttling is a mechanism used to control the rate at which r
 
 Answer: The maximum deployment package size for a Lambda function, when uploaded directly or from an S3 bucket, is 50 MB for AWS Lambda@Edge and 250 MB for standard AWS Lambda functions
 
+The maximum size for an uncompressed Lambda deployment package is 250 MB when uploaded via S3. 
+However, you can't upload more than a 50 MB package when uploading directly into a Lambda function. 
+
+AWS Lambda imposes certain quotas and limits on the size of the deployment package: 
+   - 50 MB for zipped + direct upload
+   - 250 MB (actual figure around 262MB) for uncompressed package
+   - 3 MB for in-console editing
+
+The size of the AWS Lambda package matters for at least two reasons: 
+   - The size limitations of the platform
+   - The cold start time
+You can bypass the 50 MB Lambda Deployment Package Size Limit by deploying via S3.
+
 31. Initial Bursts & Concurrency Limits with best examples: AWS Documentation.
 
 https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html 
